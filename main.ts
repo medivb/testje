@@ -24,7 +24,7 @@ input.onGesture(Gesture.Shake, function () {
     music.playTone(220, music.beat(BeatFraction.Whole))
     music.playTone(330, music.beat(BeatFraction.Half))
     music.playTone(294, music.beat(BeatFraction.Double))
-    music.playTone(247, music.beat(BeatFraction.Double))
+    music.playTone(247, music.beat(BeatFraction.Whole))
     basic.clearScreen()
 })
 input.onButtonPressed(Button.B, function () {
